@@ -1,0 +1,246 @@
+* {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+.App {
+    width: 800px;
+}
+
+.navbar {
+    padding-right: 30px;
+    padding-left: 30px;
+    background: #ffdd2d;
+    height: 40px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(0,0,0,0.8);
+
+}
+.navbar a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.8);
+    margin-right: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+.navbar a:hover {
+    border: 2px solid white;
+}
+.post {
+    background: #ffdd2d;
+    display: flex;
+    padding: 15px;
+    border: 2px solid rgba(0,0,0,0.8);
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post__btns {
+    display: flex;
+}
+
+.post-enter {
+    transform: translateX(-350px);
+}
+.post-enter-active {
+    transform: translateX(0px);
+    transition: all 500ms ease-in;
+}
+.post-exit {
+    opacity: 1;
+}
+.post-exit-active {
+    transform: translateX(-350px);
+    transition: all 500ms ease-in;
+}
+
+.page_wrapper {
+    width: 346px;
+    margin-left: 56%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.page {
+    color: black;
+    background: #ffdd2d;
+    padding: 10px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.page:active {
+    opacity: 0.7;
+}
+
+.page__current {
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+.loginPage {
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+}
+/*About page quiz sections*/
+
+.header {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.header h1 {
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+
+.header input {
+    border: none;
+    background-color: rgba(128,128,128,0.2);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.optionContainer {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-left: 40px;
+    text-align: center;
+}
+/*CARD*/
+
+.card {
+    width: 230px;
+    overflow: hidden;
+    border-radius: 2%;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+    margin-bottom: 35px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.card img {
+    width: 100%;
+    height: 130px;
+    margin: 0;
+}
+
+.card .card-text {
+    padding: 0 5px;
+}
+
+.card .card-text h2 {
+    font-weight: bold;
+}
+/*QuizHeader*/
+.headers {
+    margin-top: 20px;
+}
+
+.headers h4 {
+    font-size: 30px;
+}
+
+.bar {
+    width: 300px;
+    height: 50px;
+    border: 3px solid bisque;
+}
+.completion {
+    height: 100%;
+    width: 0%;
+    max-width: 100%;
+    background-color: bisque;
+}
+/*QuestionHeader*/
+.questContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.questionContainer {
+    margin-top: 20px;
+}
+.question {
+    width: 800px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.option {
+    display: flex;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.optionLabel {
+    background-color: bisque;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.optionValue {
+    background-color: rgb(244,239,239);
+    width: 100%;
+    font-size: 30px;
+    padding: 0 20px;
+}
+.buttonBack {
+    width: 150px;
+    padding: 5px 15px;
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    background: bisque;
+    border: 0px solid bisque;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/*Result*/
+.results {
+    text-align: center;
+    padding: 100px 0;
+}
+
+p {
+    font-size: 25px;
+}
+
+h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.resul {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid burlywood;
+    border-radius: 15px;
+    background-color: burlywood;
+    box-shadow: 1px 3px 1px black;
+    padding: 10px;
+}

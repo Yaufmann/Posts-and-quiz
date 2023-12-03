@@ -1,0 +1,6 @@
+export const QUIZ_ROUTER = '/about/quiz/:id'
+export const QUIZVIWE_ROUTER = '/about/quiz/'
+export const HOME_ROUTER = '/'
+export const POSTS_ROUTER = '/post'
+export const POST_ID_ROUTER = '/post/:id'
+export const ABOUT_ROUTER = '/about'

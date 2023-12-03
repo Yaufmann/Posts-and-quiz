@@ -1,0 +1,9 @@
+.myBtn {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding: 5px 15px;
+    color: black;
+    font-size: 14px;
+    background: #ffdd2d;
+    border: 1px solid gray;
+    cursor: pointer;
+}
