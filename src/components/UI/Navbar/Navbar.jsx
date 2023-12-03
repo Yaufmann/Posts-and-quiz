@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <header className="navbar">
             <div>
-                <NavLink end={true} to={HOME_ROUTER}>Home</NavLink>
+                <NavLink end={true} to={HOME_ROUTER}>HOME</NavLink>
             </div>
             <div>
                 <NavLink end={true} to={ABOUT_ROUTER}>Quiz</NavLink>
